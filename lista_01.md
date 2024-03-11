@@ -280,7 +280,6 @@ class Professor extends Funcionario {
         super(nome, idade, salarioBase)
         this.disciplina = disciplina;
         this.horaPorSemana = horaPorSemana;
-        this.salarioBase = salarioBase;
     }
 
     calcularSalario(valorHora){
