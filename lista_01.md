@@ -262,7 +262,7 @@ Certifique-se de explicar cada parte do código utilizando comentários, explica
 
 ```javascript
 class Funcionario {
-    constructor(nome, idade, salarioBase=1400){
+    constructor(nome, idade, salarioBase){
         this.nome = nome;
         this.idade = idade;
         this.salarioBase = salarioBase;
